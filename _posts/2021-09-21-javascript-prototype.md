@@ -1,5 +1,5 @@
 ---
-title: [Javascript ] 프로토타입 이해하기
+title: Javascript 프로토타입 이해하기
 categories:
   - General
 feature_text: |
