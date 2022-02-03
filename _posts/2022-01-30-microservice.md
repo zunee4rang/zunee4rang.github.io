@@ -1,7 +1,7 @@
 ---
 title: 가볍게 마이크로서비스 구축해보기-1
 categories:
-  - General
+  - Microservice
 feature_text: |
   ## 마이크로서비스 아키텍처(Microservices Architecture) 소개
 ---
