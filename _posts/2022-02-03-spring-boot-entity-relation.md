@@ -1,5 +1,5 @@
 ---
-title: 초보자를 위한 스프링 부트 가이드  엔티티 관계
+title: 초보자를 위한 스프링 부트 가이드 - 엔티티 관계
 categories:
   - Entity
 feature_text: |
