@@ -1,7 +1,7 @@
 ---
 title: 초보자를 위한 스프링 부트 가이드: 엔티티 관계
 categories:
-  - General
+  - Entity
 feature_text: |
   ## ERD를 실제 데이터베이스 모델 구현으로 변환
 ---
