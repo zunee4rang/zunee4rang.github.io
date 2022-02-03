@@ -26,8 +26,7 @@ feature_text: |
 
 Spring Data JPA 모델을 구현하기 위해 아래의 ERD(Entity Relationship Diagram)가 제공되었습니다. 이 ERD는 고객과 택배라는 두 종류의 사용자가 있는 시스템을 설명합니다. 고객은 서비스(Courier에서 수행)를 주문하고 해당 활동을 트랜잭션 모델에 기록합니다.
 
-![이미지1][ref]
-[ref]: /assets/1_WeJrS0RbizKm6UtTqsdcKQ.png "문제 모델 ERD"
+![문제 모델 ERD](/assets/1_WeJrS0RbizKm6UtTqsdcKQ.png)
 
 구현해야 할 5가지 가상 모델이 있지만 결국에는 그 이상이 될 수도 있습니다. 우리가 다룰 수 있는 관계에는 일대일, 다대일 및 다대다와 같이 세 가지 종류가 있습니다. 이 가이드에서는 Spring Data JPA에서 엔터티 관계 구현을 강조하므로 모델 간의 관계에 따라 각 모델을 세분화합니다.
 
