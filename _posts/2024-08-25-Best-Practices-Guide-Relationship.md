@@ -33,7 +33,7 @@ Many to Many
 
 #### OneToOne Association
 
-![OneToOne](/assets/11.webp.png)
+![OneToOne](/assets/11.webp)
 
 Example of OneToOne
 
@@ -118,7 +118,7 @@ public class OrderDetail {
 - 관련 테이블의 열의 데이터 크기가 너무 커서(즉, blobs열) 지연 페치해야 합니다. 이 경우 실제로 LAZY 로딩을 사용하고 있는지 확인하세요.
   실제로 대부분의 관계는 단방향 관계로 사용됩니다. 양방향 관계가 정말 필요한 경우 관계의 소유자 측을 처리하지 않기 위해 를 OneToOne사용하여 두 엔터티가 동일한 기본 키를 공유할 수 있는지 확인하세요 .@PrimaryKeyJoinColumn
 
-![OneToOne](/assets/12.webp.png)
+![OneToOne](/assets/12.webp)
 
 관계의 소유자 측은 무엇을 의미합니까? 다음 섹션에서 이에 대해 논의합니다.
 
@@ -314,13 +314,13 @@ public  class  OrderItem {
 
 #### ManyToOne Association
 
-![ManyToOne](/assets/13.webp.png)
+![ManyToOne](/assets/13.webp)
 
 OneToOne 관계 매핑 과 유사하게 , ManyToOne 연관은 종종 N+1 문제로 이어질 수 있습니다. 따라서 Lazy 페칭을 사용하는 것이 가장 좋습니다. 또한, 결코 누락되지 않을 경우 속성을 다음 optional과 같이 설정합니다.false
 
 #### OneToMany Assocation
 
-![OneToMany](/assets/14.webp.png)
+![OneToMany](/assets/14.webp)
 
 만약 OneToMany단순히 양방향 관계의 비소유 측에 있다면 ManyToOne, 실제로 필요한지 다시 한 번 확인하세요. 그렇지 않다면, 간단히 연관성을 제거하세요. 그러면 양방향 관계에서 발생할 수 있는 모든 문제가 방지됩니다.
 
@@ -362,7 +362,7 @@ public class OrderItem {
 
 #### ManyToMany Assocation
 
-![ManyToMany](/assets/15.webp.png)
+![ManyToMany](/assets/15.webp)
 
 ```java
 @Entity
